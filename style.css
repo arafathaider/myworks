@@ -1,0 +1,109 @@
+/*Basic CSS*/
+@font-face {
+  font-family: "AsiyahScript";
+  src: url("../webfonts/AsiyahScript-Demo.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AsiyahScript-Demo.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../webfonts/AsiyahScript-Demo.otf") format("opentype"), /* Open Type Font */
+    url("../webfonts/AsiyahScript-Demo.svg") format("svg"), /* Legacy iOS */
+    url("../webfonts/AsiyahScript-Demo.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../webfonts/AsiyahScript-Demo.woff") format("woff"), /* Modern Browsers */
+    url("../webfonts/AsiyahScript-Demo.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+a:focus, input:focus, textarea:focus, button:focus{outline: 0 solid;}
+img{max-width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6{font-family: "AsiyahScript";margin:0 0 15px; font-weight: 700; }
+html,body{font-family: 'Open Sans', sans-serif; height: 100%; color:#fff;}
+.section-padding{padding:80px 0;}
+.bg1{background-image: url(../img/b1.jpg);}
+.bg2{background-image: url(../img/b2.jpg);}
+.bg3{background-image: url(../img/b3.jpg);}
+.full-bg-area{
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+.tble {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.tble-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*auto height fixation for table-tablecell*/
+.slider, .slider div {
+    height: 100%;
+}
+
+.slider div.tble-cell, .slider div.tble-cell div,.slider div.owl-nav,.slider div.owl-nav div,.slider div.owl-dots,.slider div.owl-dots div {
+    height: auto;
+}
+/*owl navigation buttons*/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  
+     position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 40px;
+    color: #ffff;
+    line-height: 50px;
+    margin-top: -25px;
+    height: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    left:auto;
+    right:50px;
+}
+
+/*data-dot image css*/
+.slider .owl-dot img {
+    height: 80px;
+    width: 100px;
+}
+
+
+
+.slider .owl-dots {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.slider .owl-dots div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.single-slide h1 {
+          font-size: 85px;
+    margin-bottom: 0;
+    line-height: 85px;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.single-slide p {
+    
+    font-size: 90%;
+    font-weight: 100;
+}
+
+a.boxed-button {
+    background: #D7095E;
+    color: #fff;
+    font-size: 90%;
+    padding: 12px 23px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
